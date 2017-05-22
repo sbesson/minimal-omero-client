@@ -9,7 +9,7 @@
     <parent>
         <groupId>ome</groupId>
         <artifactId>pom-omero-client</artifactId>
-        <version>5.3.3</version>
+        <version>5.3.4</version>
     </parent>
 
     <groupId>com.example</groupId>
@@ -62,16 +62,6 @@
         <repository>
           <id>ome.maven</id>
           <url>http://artifacts.openmicroscopy.org/artifactory/maven/</url>
-        </repository>
-        <repository>
-          <id>unidata-releases</id>
-          <name>unidata-releases</name>
-          <url>https://artifacts.unidata.ucar.edu/content/repositories/unidata-releases</url>
-        </repository>
-        <repository>
-          <id>zeroc</id>
-          <name>zeroc</name>
-          <url>https://repo.zeroc.com/nexus/content/repositories/releases/</url>
         </repository>
     </repositories>
 
